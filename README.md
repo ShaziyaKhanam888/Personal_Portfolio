@@ -20,6 +20,8 @@ To view my portfolio, simply clone this repository and open `portfolio.html` in 
 
 **##Screenshots**
 
+![Screenshot 2024-09-26 133656](https://github.com/user-attachments/assets/d5c933c4-8e19-4852-bccc-39801bd7592b)
+
 ![Screenshot 2024-09-26 133720](https://github.com/user-attachments/assets/a4c1b8ef-5c98-49b1-bb10-8386eef530ac)
 
 ![Screenshot 2024-09-26 133735](https://github.com/user-attachments/assets/b54ff747-dc75-4117-bfc8-5bad25ac6d98)
