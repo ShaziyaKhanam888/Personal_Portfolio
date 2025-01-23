@@ -16,7 +16,8 @@ Welcome to my personal portfolio! This project showcases my work, skills, and pr
 - Font Awesome (for icons)
 
 ## Getting Started
-To view my portfolio, simply clone this repository and open `portfolio.html` in your browser:
+To view my portfolio, simply clone this repository and open `index.html` in your browser:
+## Check Here: https://shaziya-personal-portfolio.netlify.app/
  
 
  
