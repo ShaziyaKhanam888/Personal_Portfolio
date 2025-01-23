@@ -1,0 +1,461 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: cursive;
+}
+#body-header {
+    height: 75vh;
+    width: 100vw;
+    opacity: 0.8;
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+ }
+ 
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+.horizontal-list li {
+     display: inline-block;
+     margin: 0px 25px 25px 0px;
+     font-weight: 100;
+     font-size: 1.4rem;
+ }
+ .horizontal-list li a{
+    text-decoration: none;
+    color: white;
+ }
+ .text-center {
+    text-align: center;
+}
+
+#name-container {
+    margin-top: 18vh;
+}
+
+#my-name {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    animation: bounce 0.8s ease-in-out infinite alternate;
+}
+@keyframes bounce{
+     50%{
+        transform: translateY(40px);
+     }
+     100%{
+        transform: translateY(20px);
+     }
+}
+
+ /*About -section */
+.about-info{
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
+.my-image{
+    margin: auto;
+    margin-top: -17vh;
+    width: 20%;
+}
+.my-image img{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+    margin: auto;
+    position: relative; 
+    z-index: 1;
+}
+.download-btn{
+    height: auto;
+    width: 12%;
+    margin: 4px auto;   
+     
+}
+.download-btn button{
+     height: 40px;
+    padding: 4px;
+    text-align: center;
+    background-color: dodgerblue;
+    color: whitesmoke;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.6s,color 0.6s;
+    border: 1px solid black;
+}
+.download-btn button:hover{
+    background-color: white;
+    color: black
+}
+.about-para{
+    height: auto;
+    width: 30%;
+    margin:  15px auto;    
+}
+.about-para p{
+    padding: 10px;
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    font-size: 1.12rem;
+    /* margin: auto; */
+ }
+.text-highlight{
+    color: darkblue;
+    font-weight: 700;
+}
+#skills{
+   height: 65vh;
+   width: 100%;
+ background-color: #DAD3BE;
+ overflow-y: auto;
+      
+ }
+#skills h1{
+    height: auto;
+    width: 15%;
+    margin: auto;
+}   
+.section-heading{
+    color: #2857a4; 
+    font-size: 1.8rem;
+}
+
+ .skills-display {
+    height: auto;
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+ 
+
+.skill-progress {
+    width: 13rem;
+    height: 2.2rem;
+    background-color: lightgrey;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
+    margin: 25px;
+    overflow: hidden;
+}
+
+.skill-progress > div {
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 1px 1px 5px 2px #989882;
+}
+
+.skill-name span {
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.seventy-percent {
+    width: 70%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+     
+}
+.eighty-five-percent {
+     width: 85%;
+     height: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+.eighty-percent{
+    width: 80%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+.sixty-percent{
+    width: 60%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+.ninty-percent {
+    width: 90%;
+    height: 100%;
+   border-radius: 20px 0px 0px 20px;
+}
+
+.blue {
+    background-color: #3572EF;
+}
+ 
+.pink {
+    background-color: #8E3E63;
+}
+.purple {
+    background-color: #604CC3;
+}
+.red{
+    background-color: #803D3B;
+}
+.orange{
+    background-color: #CD5C08;
+}
+.green{
+    background-color: #0D7C66;
+}
+/* work exp*/
+#experience{
+    height: 60vh;
+    width: 100%;
+    margin-top: 30px;
+  }
+#experience h1{
+    height: auto;
+    width: 23%;
+    margin: auto;
+    
+}  
+.timeline{
+    height: auto;
+    width: 45%;
+    margin: 5% auto;
+    color: grey;
+    
+} 
+.timeline-container p{
+    text-align: justify;
+    
+}
+#education{
+    height: 70vh;
+    width: 100%;
+    margin-top: 30px;
+    background-color: #DAD3BE;
+    overflow-y: auto;
+}
+#education h1{
+    height: auto;
+    width: 23%;
+    margin: auto;
+}
+#certificate{
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+}
+#certificate h1{
+    height: auto;
+    width: 20%;
+    margin: auto;
+}
+/* Project Section */
+#project {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+}
+#project h1{
+    text-align: center;
+}
+
+.project-list {
+    height: 80vh;
+    width: 70%;  
+    margin: 0 auto;  
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+     gap: 10px;
+    margin-top: 10px;
+}
+
+
+.project-item {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    width: 340px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+
+}
+
+.project-item:hover {
+    transform: translateY(-10px);
+}
+
+.project-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.project-item p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.project-item a {
+    font-size: 1rem;
+    color: #3572EF;
+    text-decoration: none;
+}
+
+.project-item a:hover {
+    text-decoration: underline;
+}
+#contact{
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+    background: linear-gradient(#D1D8C5,#DAD3BE,#F6DCAC);
+    
+}
+#contact h1{
+    height: auto;
+    width: 20%;
+    margin: auto;
+}
+#contact-container{
+    display: flex;
+     
+}
+#contact-form-container{
+    height: auto;
+    width: 60%;
+    margin-left: 5%;
+     
+}
+#my-details-container{
+    height: auto;
+    width: 30%;
+  margin-left: 6%;
+  
+}
+#my-details-container h3 {
+    color:#13386fe0;
+    font-weight: 550;
+    font-size: 1.2rem;
+}
+#contact-form {
+    margin-left: 20%;
+}
+ 
+.my-details-info-container {
+    margin-bottom: 20px;
+    color:#13386fe0;
+    font-size: 1.1rem;
+}
+
+.my-details-info-container span {
+    margin-left: 0.4rem;
+}
+
+.my-details-info-container i {
+    color: #13386fe0;
+
+}
+
+#my-details-icon {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: bottom;
+    margin-right: 0.5rem;
+}
+
+
+#contact-form input,
+textarea {
+    max-width: 90%;
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid #13386fe0;
+    color: black;
+    background: transparent;
+    width: 90%;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+#contact-form button[type="submit"] {
+    background: transparent;
+    font-size: 0.95rem;
+    border: 2px solid #13386fe0;
+    margin-top: 2%;
+    margin-left: 35%;
+    border-radius: 2px;
+    color: #13386fe0;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+}
+
+#contact-form button:hover {
+    background-color: #13386fe0;
+    color: white;
+}
+  
+.icon-list{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+.icon-list li {
+     display: inline-block;
+     margin: 40px 20px;
+     font-weight: 100;
+     font-size: 1.4rem;
+ }
+ .icon-list li a{
+    text-decoration: none;
+    color: #13386fe0;
+ }  
+
+/* Social Icons */
+.social-icons .icon-list li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons .icon-list img {
+    width: 30px;
+    height: auto;
+}
+.fab {
+    font-size: 24px;
+    color:#13386fe0; 
+    margin-top: 20px;
+ }
+ 
+ 
+
+  
